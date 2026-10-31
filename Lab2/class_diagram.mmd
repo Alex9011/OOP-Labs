@@ -1,0 +1,20 @@
+classDiagram
+    Shape <|-- PointShape
+    Shape <|-- LineShape
+    Shape <|-- RectShape
+    Shape <|-- EllipseShape
+    Editor "1" *-- "0..116" Shape : stores
+    Application --> Editor
+    class Shape {
+        <<abstract>>
+        _coords
+        show(canvas, preview)*
+        bounds()
+    }
+    class Editor {
+        _shapes
+        _count
+        add(shape)
+        clear()
+        show(canvas)
+    }
