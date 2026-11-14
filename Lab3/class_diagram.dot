@@ -1,0 +1,14 @@
+digraph G {
+rankdir=TB; node [shape=record,fontname="DejaVu Sans",fontsize=12];
+Shape [label="Shape (abstract)|_coords|show(canvas, preview)\lbounds()\l"];
+PointShape [label="PointShape|show()"];
+LineShape [label="LineShape|show()"];
+RectShape [label="RectShape|bounds()\lshow()\l"];
+EllipseShape [label="EllipseShape|show()"];
+{PointShape LineShape RectShape EllipseShape} -> Shape [arrowhead=empty];
+Application -> Editor [label="editor"];
+Editor -> Shape [label="0..117",arrowhead=vee];
+Application -> ShapeToolbar;
+ShapeToolbar -> ToolTip [label="4"];
+ShapeToolbar -> Frame [arrowhead=empty];
+}
