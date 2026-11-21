@@ -1,0 +1,16 @@
+test_menu_toolbar_and_title (test_gui.GuiTests.test_menu_toolbar_and_title) ... ok
+test_real_mouse_events_and_redraw (test_gui.GuiTests.test_real_mouse_events_and_redraw) ... ok
+test_tooltip_timer_and_close (test_gui.GuiTests.test_tooltip_timer_and_close) ... ok
+test_abstract_and_multiple_inheritance (test_model.ModelTests.test_abstract_and_multiple_inheritance) ... ok
+test_all_previews_are_red_dashed_unfilled (test_model.ModelTests.test_all_previews_are_red_dashed_unfilled) ... ok
+test_capacity_clear_and_close (test_model.ModelTests.test_capacity_clear_and_close) ... ok
+test_circles_reuse_base_show_without_mutation (test_model.ModelTests.test_circles_reuse_base_show_without_mutation) ... ok
+test_cube_square_faces_and_twelve_edges (test_model.ModelTests.test_cube_square_faces_and_twelve_edges) ... ok
+test_original_geometry_and_styles (test_model.ModelTests.test_original_geometry_and_styles) ... ok
+test_selection_cancel_and_polymorphic_drawing (test_model.ModelTests.test_selection_cancel_and_polymorphic_drawing) ... ok
+test_zero_size_shapes_do_not_fail (test_model.ModelTests.test_zero_size_shapes_do_not_fail) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.761s
+
+OK
