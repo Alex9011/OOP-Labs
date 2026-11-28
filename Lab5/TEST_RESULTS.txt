@@ -1,0 +1,23 @@
+test_rejects_invalid_rows_and_overflow (test_csv.CsvTests.test_rejects_invalid_rows_and_overflow) ... ok
+test_round_trip_all_shapes_and_empty_scene (test_csv.CsvTests.test_round_trip_all_shapes_and_empty_scene) ... ok
+test_csv_menu_roundtrip_and_bad_file_preserves_scene (test_gui.GuiTests.test_csv_menu_roundtrip_and_bad_file_preserves_scene) ... ok
+test_menu_toolbar_and_title (test_gui.GuiTests.test_menu_toolbar_and_title) ... ok
+test_real_mouse_events_and_redraw (test_gui.GuiTests.test_real_mouse_events_and_redraw) ... ok
+test_table_is_nonmodal_and_synced (test_gui.GuiTests.test_table_is_nonmodal_and_synced) ... ok
+test_tooltip_timer_and_close (test_gui.GuiTests.test_tooltip_timer_and_close) ... ok
+test_abstract_and_multiple_inheritance (test_model.ModelTests.test_abstract_and_multiple_inheritance) ... ok
+test_all_previews_are_red_dashed_unfilled (test_model.ModelTests.test_all_previews_are_red_dashed_unfilled) ... ok
+test_capacity_clear_and_close (test_model.ModelTests.test_capacity_clear_and_close) ... ok
+test_circles_reuse_base_show_without_mutation (test_model.ModelTests.test_circles_reuse_base_show_without_mutation) ... ok
+test_cube_square_faces_and_twelve_edges (test_model.ModelTests.test_cube_square_faces_and_twelve_edges) ... ok
+test_original_geometry_and_styles (test_model.ModelTests.test_original_geometry_and_styles) ... ok
+test_selection_cancel_and_polymorphic_drawing (test_model.ModelTests.test_selection_cancel_and_polymorphic_drawing) ... ok
+test_singleton_state_and_lifecycle (test_model.ModelTests.test_singleton_state_and_lifecycle) ... ok
+test_zero_size_shapes_do_not_fail (test_model.ModelTests.test_zero_size_shapes_do_not_fail) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.849s
+
+OK
+
+Lab5.pyz: вікно та шість PNG-іконок успішно завантажено.

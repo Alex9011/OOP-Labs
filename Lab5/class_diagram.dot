@@ -1,0 +1,18 @@
+digraph Shapes {
+ graph [rankdir=TB, bgcolor="white", pad="0.25", nodesep="0.3", ranksep="0.65", dpi=180];
+ node [shape=record, fontname="DejaVu Sans", fontsize=12, margin="0.13,0.1"];
+ edge [arrowhead=empty, arrowtail=empty];
+ Shape [label="Shape «abstract»|coords|Show(canvas, preview)\lbounds()\lpen()\lcolor()\l"];
+ PointShape [label="PointShape|Show()"];
+ LineShape [label="LineShape|Show()"];
+ RectShape [label="RectShape|bounds()\lShow()\l"];
+ EllipseShape [label="EllipseShape|Show()"];
+ LineWithCirclesShape [label="LineWithCirclesShape|Show()"];
+ CubeShape [label="CubeShape|faces()\lShow()\l"];
+ Shape -> {PointShape LineShape RectShape EllipseShape} [dir=back];
+ LineShape -> LineWithCirclesShape [dir=back];
+ EllipseShape -> LineWithCirclesShape [dir=back];
+ RectShape -> CubeShape [dir=back];
+ LineShape -> CubeShape [dir=back];
+ {rank=same;PointShape;LineShape;RectShape;EllipseShape;}
+}
